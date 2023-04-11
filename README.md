@@ -1,18 +1,51 @@
-Blogs & Gallery App- REACR.JS
-- Upload and delete new post
-- Search post or photo by ✍️ author
 
 
-Terminal 1 - npm start
+# Community Portal - Blogs & Gallery App
 
-Terminal 2 (jason-server) - npx json-server --watch data/db.json --port 8000
+Welcome to our Community Portal - Blogs & Gallery App. This is a web application built with React.js, which allows users to upload and delete blog posts and photos. You can also search posts or photos by their author.
 
-![home-blogs](https://user-images.githubusercontent.com/93940739/209544773-bc3a3c1b-b934-4455-9f18-54b208773aab.png)
+## Getting Started
 
-![gallery](https://user-images.githubusercontent.com/93940739/209544808-12272a8f-a8a0-4531-91bd-c784ea07d31d.png)
+To get started with the application, you need to follow these steps:
 
-![new-image](https://user-images.githubusercontent.com/93940739/209544831-7893c9ca-2279-48cb-b1c3-b2793c0702b7.png)
+1. Clone the repository to your local machine.
 
+   ```
+   git clone https://github.com/your-username/community-portal.git
+   ```
 
+2. Install the dependencies.
 
+   ```
+   npm install
+   ```
 
+3. Start the application.
+
+   ```
+   npm start
+   ```
+
+4. Start the JSON server.
+
+   ```
+   npx json-server --watch data/db.json --port 8000
+   ```
+
+5. Open your browser and go to `http://localhost:3000` to view the application.
+
+## Features
+
+The Community Portal - Blogs & Gallery App has the following features:
+
+- **Upload and delete new post**: Users can upload new blog posts and photos, and delete them if they wish to.
+
+- **Search post or photo by author**: Users can search for blog posts or photos by their author.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/your-username/community-portal/blob/main/LICENSE.md) file for details.
+
+## Acknowledgments
+
+Thanks to the team at [React](https://reactjs.org/) for building such an awesome library, and to [JSON Server](https://github.com/typicode/json-server) for providing a simple way to create a fake REST API.
