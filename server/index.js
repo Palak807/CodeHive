@@ -1,10 +1,3 @@
-import express from "express";
-import bodyParser from "body-parser";
-import mongoose from "mongoose";
-import session from "express-session";
-import createMemoryStore from 'memorystore';
-import cors from "cors";
-import dotenv from "dotenv";
 import multer from "multer";
 import helmet from "helmet";
 import morgan from "morgan";
@@ -20,6 +13,13 @@ import { SECRET_KEY } from "./config/index.js";
 import User from "./models/User.js";
 import Post from "./models/Post.js";
 import { users, posts } from "./data/index.js";
+import express from "express";
+import bodyParser from "body-parser";
+import mongoose from "mongoose";
+import session from "express-session";
+import createMemoryStore from 'memorystore';
+import cors from "cors";
+import dotenv from "dotenv";
 
 /** session store config */
 const memoryStore = createMemoryStore(session);
