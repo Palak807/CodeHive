@@ -1,6 +1,6 @@
-import { Box, Typography, useTheme, useMediaQuery } from "@mui/material";
 import Form from "./Form";
 import SsoButtons from "./SsoButtons";
+import { Box, Typography, useTheme, useMediaQuery } from "@mui/material";
 
 const LoginPage = () => {
   const theme = useTheme();
